@@ -240,7 +240,7 @@ body {
     }
 }
 
-@media (max-height: 600px) {
+@media (max-height: 768px) {
     .nav-logo .nav-icon {
         width: 1.8rem;
     }
