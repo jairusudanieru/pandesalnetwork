@@ -46,7 +46,7 @@ body {
 }
 
 .nav-items {
-    padding-right: 2rem;
+    padding-right: 2vw;
     text-align: center;
     align-content: center;
     justify-content: space-evenly;
@@ -103,8 +103,8 @@ body {
 
 .about-server {
     text-align: center;
-    font-size: 1.6rem;
-    letter-spacing: 0.05rem;
+    font-size: 1.6vw;
+    letter-spacing: 0.05vw;
 }
 
 .support-page {
@@ -148,7 +148,7 @@ body {
 .server-address-full {
     display: none;
     position: absolute;
-    padding: 0.7rem;
+    padding: 0.7vw;
     right: 1vw;
     bottom: 1vw;
     border-radius: 0.5rem;
