@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Pandesal Network</title>
+        <link rel="icon" href="/images/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="root-page">
+          <div class="nav-bar">
+            <div class="nav-logo">
+                <img class="nav-icon" alt="icon" src="/images/favicon.png">
+                <img class="nav-title" alt="title" src="/images/title.png">
+            </div>
+            <div class="nav-items">
+                <a href="#" onclick="showPage('.home-page')">Home</a>
+                <a href="#" onclick="showPage('.about-page')">About</a>
+                <a href="#" onclick="showPage('.support-page')">Support</a>
+                <a href="https://discord.gg/fWKv4muBww" target="_blank" rel="noopener noreferrer">Discord</a>
+              </div>
+          </div>
+          <div class="home-page">
+            <img class="logo" alt="logo" src="/images/logo.png">
+            <div class="description">
+                A Whitelisted Minecraft Multiplayer Server, where 
+                there are no land claiming, ranking systems, or 
+                pay-to-win elements. It simply provides a standard 
+                survival multiplayer experience.
+            </div>
+          </div>
+          <div class="about-page">
+            <div class="about-server">
+              Pandesal SMP is a Survival Minecraft Server in the 
+              Philippines, designed for Java Edition players but also 
+              open to Bedrock folks. Thanks to MCProHosting, our host, 
+              and Thugdog's ownership (maintained by Jairusu), the 
+              server's smooth sailing. It's whitelist-only, ensuring 
+              a secure and fun environment.
+            </div>
+          </div>
+        </div>
+        <div class="support-page">
+          <div class="support-server">
+            Supporting the server is easy - play on it actively and 
+            spread the word to your friends. Your engagement helps 
+            create a vibrant community, making the server more enjoyable 
+            for everyone.
+          </div>
+        </div>
+        <div class="server-address-full">
+          <a href="#" onclick="hideAddress()">
+            Server Address: play.pandesalsmp.cloud<br>
+            Bedrock Port: 42757
+          </a>
+        </div>
+        <div class="server-address">
+          <a href="#" onclick="showAddress()">Show Server Address</a>
+        </div>
+      </div>
+        <script src="script.js"></script>
+    </body>
+</html>
