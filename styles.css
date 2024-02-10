@@ -170,3 +170,72 @@ body {
         opacity: 1;
     }
 }
+
+@media (max-width: 1280px) {
+
+    .nav-logo .nav-icon {
+        width: 2.5rem;
+    }
+
+    .nav-logo .nav-title {
+        width: 10rem;
+    }
+
+    .nav-items a {
+        font-size: 1.1rem;
+    }
+
+    .logo {
+        width: 40rem;
+    }
+
+    .description , .about-server , .support-server {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .nav-logo .nav-icon {
+        width: 2rem;
+    }
+
+    .nav-logo .nav-title {
+        width: 8rem;
+    }
+
+    .nav-items a {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 30rem;
+    }
+
+    .description , .about-server , .support-server {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-logo .nav-icon {
+        width: 1.8rem;
+    }
+
+    .nav-logo .nav-title {
+        width: 6.9rem;
+    }
+
+    .nav-items a {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 20rem;
+    }
+
+    .description , .about-server , .support-server {
+        font-size: 1rem;
+    }
+}
