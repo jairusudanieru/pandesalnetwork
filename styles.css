@@ -88,7 +88,7 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    width: 70rem;
+    width: 55rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -108,7 +108,7 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    width: 70rem;
+    width: 55rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
